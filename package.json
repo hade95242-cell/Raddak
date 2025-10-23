@@ -1,0 +1,13 @@
+{
+  "name": "raddak-netlify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step'",
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.0",
+    "pg": "^8.11.0"
+  }
+}
