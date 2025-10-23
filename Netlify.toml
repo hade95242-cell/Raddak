@@ -1,0 +1,10 @@
+[build]
+  publish = "public"
+  command = "npm run build"
+
+[dev]
+  functions = "netlify/functions"
+  port = 8888
+
+[functions]
+  node_bundler = "esbuild"
